@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_CFLAGS += -w
+
 ifeq ($(BOARD_USE_VP8ENC_SUPPORT), true)
 LOCAL_CFLAGS += -DUSE_VP8ENC_SUPPORT
 endif
